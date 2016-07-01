@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../sx-media-gallery/.idea/sx-media-gallery.iml" filepath="$PROJECT_DIR$/../sx-media-gallery/.idea/sx-media-gallery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/jquery.sx-media-gallery.iml" filepath="$PROJECT_DIR$/.idea/jquery.sx-media-gallery.iml" />
     </modules>
   </component>
 </project>

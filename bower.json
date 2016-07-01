@@ -1,0 +1,34 @@
+{
+  "name": "jquery.sx-media-gallery",
+  "homepage": "https://github.com/sxkote/jquery.sx-media-gallery",
+  "authors": [
+    "Ivan Litskevich <sxkote@gmail.com>"
+  ],
+  "description": "Media Resources (images, videos, pdf, etc) Gallery viewer plugin",
+  "main": [
+    "dist/js/jquery.sx-media-gallery.min.js",
+    "dist/css/jquery.sx-media-gallery.min.css"
+  ],
+  "keywords": [
+    "media",
+    "gallery",
+    "images",
+    "viewer",
+    "view",
+    "video",
+    "content",
+    "material"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "2.2"
+  }
+}

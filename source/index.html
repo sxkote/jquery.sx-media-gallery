@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Title</title>
-    <link rel="stylesheet" href="css/sx-media-gallery.css">
+    <link rel="stylesheet" href="css/jquery.sx-media-gallery.css">
     <style>
         .sxmg {
         }
@@ -29,25 +29,29 @@
 </div>
 
 <div class="sxmg">
-    <div class="sxmg-item" data-url="images/Chrysanthemum.jpg"></div>
-    <div class="sxmg-item" data-url="images/Desert.jpg" data-date="2016-06-17" data-title="Desert.jpg"
+    <div class="sxmg-item" data-id="1" data-url="images/Chrysanthemum.jpg"></div>
+    <div class="sxmg-item" data-id="2" data-url="images/Desert.jpg" data-date="2016-06-17" data-title="Desert.jpg"
          data-comment="Here is comment for desert"></div>
-    <div class="sxmg-item" data-url="images/Hydrangeas.jpg" data-title="Hydrangeas.jpg"
+    <div class="sxmg-item" data-id="3" data-url="images/Hydrangeas.jpg" data-title="Hydrangeas.jpg"
          data-comment="Here is comment for ocean"></div>
-    <div class="sxmg-item" data-url="images/Jellyfish.jpg"></div>
-    <div class="sxmg-item" data-url="images/Koala.jpg" data-date="2016-06-13"
+    <div class="sxmg-item" data-id="4" data-url="images/Jellyfish.jpg"></div>
+    <div class="sxmg-item" data-id="5" data-url="images/Koala.jpg" data-date="2016-06-13"
          data-comment="Here is comment for Koala"></div>
-    <div class="sxmg-item" data-url="images/Lighthouse.jpg"></div>
-    <div class="sxmg-item" data-url="images/Penguins.jpg"></div>
-    <div class="sxmg-item" data-url="images/Penguins.jpg"></div>
-    <div class="sxmg-item" data-url="images/Tulips.jpg"></div>
-    <div class="sxmg-item" data-url="images/LoveStory_converted.mp4" data-title="video!"></div>
-    <div class="sxmg-item" data-url="images/mov.mov"></div>
+    <div class="sxmg-item" data-id="6" data-url="images/Lighthouse.jpg"></div>
+    <div class="sxmg-item" data-id="21" data-url="materials/book.pdf" data-comment="BOOK!"></div>
+    <div class="sxmg-item" data-id="22" data-url="http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4" data-comment="online video"></div>
+    <div class="sxmg-item" data-id="7" data-url="images/Penguins.jpg"></div>
+    <div class="sxmg-item" data-id="8" data-url="images/Penguins.jpg"></div>
+    <div class="sxmg-item" data-id="9" data-url="images/Tulips.jpg"></div>
+    <div class="sxmg-item" data-id="10" data-url="materials/LoveStory_converted.mp4" data-title="video converted!"></div>
+    <div class="sxmg-item" data-id="11" data-url="materials/mov.mov"></div>
 </div>
-<script type="text/javascript" src="js/jquery.min.js"></script>
-<script type="text/javascript" src="js/jquery.event.move.js"></script>
-<script type="text/javascript" src="js/jquery.event.swipe.js"></script>
-<script type="text/javascript" src="js/sx-media-gallery.js"></script>
+
+<script type="text/javascript" src="lib/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="lib/jquery.event.move-master/js/jquery.event.move.js"></script>
+<script type="text/javascript" src="lib/jquery.event.swipe-master/js/jquery.event.swipe.js"></script>
+<script type="text/javascript" src="lib/pdfobject/pdfobject.min.js"></script>
+<script type="text/javascript" src="js/jquery.sx-media-gallery.js"></script>
 
 <script>
     $(document).ready(function () {
