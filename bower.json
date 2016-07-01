@@ -1,6 +1,7 @@
 {
   "name": "jquery.sx-media-gallery",
   "homepage": "https://github.com/sxkote/jquery.sx-media-gallery",
+  "version": "1.0.0",
   "authors": [
     "Ivan Litskevich <sxkote@gmail.com>"
   ],
@@ -20,7 +21,6 @@
     "material"
   ],
   "license": "MIT",
-  "private": true,
   "ignore": [
     "**/.*",
     "node_modules",
